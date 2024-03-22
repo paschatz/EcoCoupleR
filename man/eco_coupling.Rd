@@ -2,10 +2,10 @@
 \alias{eco_coupling}
 \title{Calculate Ecosystem Coupling}
 \usage{
-eco_coupling(correlation_matrix, data_str)
+eco_coupling(data, data_str)
 }
 \arguments{
-  \item{correlation_matrix}{
+  \item{data}{
     A square, symmetrical matrix representing the correlation between variables. Output of \code{cor()} or \code{Hmisc::rcorr()}.
     }
   \item{data_str}{
@@ -30,8 +30,8 @@ correlation_matrix <- matrix(c(1, 0.6, 0.4, 0.6, 1, 0.8, 0.4, 0.8, 1), nrow = 3)
 eco_coupling(correlation_matrix, data_str = "matrix")
 
 # Example 2: Calculate ecological coupling for a list of correlation matrices
-list_of_matrices <- list(matrix1 = correlation_matrix1, matrix2 = correlation_matrix2)
-eco_coupling(list_of_matrices, data_str = "list")
+# list_of_matrices <- list(matrix1 = correlation_matrix1, matrix2 = correlation_matrix2)
+# eco_coupling(list_of_matrices, data_str = "list")
 }
 \references{
 Ochoa-Hueso, Raúl, Manuel Delgado-Baquerizo, Anita C. Risch, Maarten Schrama, Elly Morriën, S. Henrik Barmentlo, Stefan Geisen, et al. 2021.
