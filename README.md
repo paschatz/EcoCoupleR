@@ -1,12 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# EcoCoupleR
+# EcoCoupleR \<a <img src="sticker/ecocoupler_logo.png" align="right" height="138" /></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of EcoCoupleR is to …
+The goal of EcoCoupleR is to provide researchers with an intuitive tool
+that will allow them to explore the potentialities of ecological
+coupling theory.
 
 ## Installation
 
@@ -18,35 +20,16 @@ You can install the development version of EcoCoupleR from
 devtools::install_github("paschatz/EcoCoupleR")
 ```
 
-## Example
+## Short note:
 
-This is a basic example which shows you how to solve a common problem:
+This is an R package for calculating ecosystem coupling as has been
+described by [Ochoa-Hueso et
+al. (2021)](https://www.sciencedirect.com/science/article/pii/S2590332221003535?via%3Dihub).
+This is an ongoing and under construction project. For the time being,
+the package consists only of one function; `eco_coupling()`. In a
+nutshell, `eco_coupling()` takes as an input a correlation matrix (or a
+list of many matrices), trims the lower-diagonal, to avoid double
+counting, removes self-correlations (the diagonal) and calculates a
+sinlge ecosystem coupling value.
 
-``` r
-library(EcoCoupleR)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+Please provide feedback and suggestions for future improvements.
