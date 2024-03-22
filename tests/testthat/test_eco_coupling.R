@@ -4,6 +4,9 @@
 # Package dependencies:
 packages <- c("tidyverse", "Hmisc")
 
+# Load current library
+library(EcoCoupleR)
+
 # if not installed, install tidyverse and Hmisc
 check_and_install_packages <- function(packages) {
   for (package in packages) {
