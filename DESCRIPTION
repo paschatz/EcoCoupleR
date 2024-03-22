@@ -1,13 +1,22 @@
 Package: EcoCoupleR
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Implementation of ecosystem coupling metrics in R
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Author: c(person("Paschalis", "Chatzopoulos", role = c("aut","cre"),
+                    email = "paschatzop@gmail.com",
+                    cooment = c(ORCID = "0000-0002-3456-7203")),
+	         person("Raul", "Ochoa-Hueso", role = c("aut"),
+	            email = "rochoahueso@gmail.com",
+	            comment = c(ORCID = "0000-0002-1839-6926")))
+Maintainer: Paschalis Chatzopoulos <paschatzop@gmail.com>
+Description: 
+    Package that provides functions to calculate ecosystem coupling metrics.
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 URL: https://github.com/paschatz/EcoCoupleR
 BugReports: https://github.com/paschatz/EcoCoupleR/issues
+RoxygenNote: 7.3.1
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
