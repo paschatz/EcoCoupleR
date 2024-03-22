@@ -10,7 +10,10 @@ Author: c(person("Paschalis", "Chatzopoulos", role = c("aut","cre"),
 	            comment = c(ORCID = "0000-0002-1839-6926")))
 Maintainer: Paschalis Chatzopoulos <paschatzop@gmail.com>
 Description: 
-    Package that provides functions to calculate ecosystem coupling metrics.
+    Package that provides functions to calculate ecosystem coupling metrics. This
+    is a work in progress and the package will be updated with more functions.
+    Next major update will include functions to build null models and calculate
+    different types of coupling metrices (coupling, decoupling, anticoupling).
 License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
