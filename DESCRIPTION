@@ -2,10 +2,10 @@ Package: EcoCoupleR
 Type: Package
 Title: Implementation of Ecosystem Coupling Metrics in R
 Version: 0.1.0
-Author: c(person("Paschalis", "Chatzopoulos", role = c("aut","cre"),
+Authors@R: c(person("Paschalis", "Chatzopoulos", role = c("aut","cre","cph"),
                     email = "paschatzop@gmail.com",
-                    cooment = c(ORCID = "0000-0002-3456-7203")),
-	         person("Raul", "Ochoa-Hueso", role = c("aut"),
+                    comment = c(ORCID = "0000-0002-3456-7203")),
+	         person("Raul", "Ochoa-Hueso", role = c("aut", "ths"),
 	            email = "rochoahueso@gmail.com",
 	            comment = c(ORCID = "0000-0002-1839-6926")))
 Maintainer: Paschalis Chatzopoulos <paschatzop@gmail.com>

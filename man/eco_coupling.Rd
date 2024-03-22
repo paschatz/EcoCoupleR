@@ -38,4 +38,3 @@ Ochoa-Hueso, Raúl, Manuel Delgado-Baquerizo, Anita C. Risch, Maarten Schrama, E
 “Ecosystem Coupling: A Unifying Framework to Understand the Functioning and Recovery of Ecosystems.” One Earth 4 (7): 951–66, https://doi.org/10.1016/j.oneear.2021.06.011.
 }
 \keyword{functions}
-\export
