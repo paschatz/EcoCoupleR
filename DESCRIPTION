@@ -1,6 +1,6 @@
 Package: EcoCoupleR
 Type: Package
-Title: Implementation of ecosystem coupling metrics in R
+Title: Implementation of Ecosystem Coupling Metrics in R
 Version: 0.1.0
 Author: c(person("Paschalis", "Chatzopoulos", role = c("aut","cre"),
                     email = "paschatzop@gmail.com",
