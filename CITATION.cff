@@ -7,6 +7,6 @@ authors:
 - family-names: Ochoa-Hueso
   given-names: Raul
   orcid: https://orcid.org/0000-0002-1839-6926
-title:paschatz/EcoCoupleR: EcoCoupleR: a computational implementation of ecosystem coupling in R
+title:paschatz/EcoCoupleR: a computational implementation of ecosystem coupling in R
 version: 1.0.1
 date-released: 2024-03-24
