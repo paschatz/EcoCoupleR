@@ -6,16 +6,16 @@ eco_coupling(data, data_str)
 }
 \arguments{
   \item{data}{
-    A square, symmetrical matrix representing the correlation between variables. Output of \code{cor()} or \code{Hmisc::rcorr()}.
+    A square, symmetrical matrix, output of \code{Hmisc::rcorr()}. We encourage the usage of \code{Hmisc::rcorr()} of the \code{Hmisc} package to calculate the correlation matrix because it returns a p-value matrix for each correlation.
     }
   \item{data_str}{
-    A character string specifying the structure of the input data. Options include "dataframe", "matrix", or "list".
+    A character string specifying the structure of the input data. Options include "dataframe", "matrix", or "list". If the input is a dataframe, it will be transformed to a matrix before calculating the ecological coupling. This bypasses the condition of the \code{Hmisc::rcorr()} function, which does not accept dataframes as input.
     }
 }
 \value{
 The ecological coupling value is a measure of the strength of ecological interactions.
 Returns a dataframe containing coupling values. If input is a list, the dataframe includes coupling values along with the names of the matrices.
-If you provide a dataframe, the will first transform it to a matrix and then calculate the ecological coupling.
+If provided with a "matrix" or "dataframe", the dataframe will contain a single row with the coupling value.
 }
 \description{
 This function calculates the ecological coupling for a correlation matrix or a list of correlation matrices.

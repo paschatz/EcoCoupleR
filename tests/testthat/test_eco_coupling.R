@@ -34,12 +34,10 @@ com_table_p4 <- test_data %>%
   filter(rowSums(.) > 0)
 
 # Calcualte correlation
-cor_list <- rcorr(as.matrix(com_table_p4))
-cor_list2 <- cor(com_table_p4, method = "spearman")
+cor_list_rcorr <- rcorr(as.matrix(com_table_p4)) # of package Hmisc
 
 # Either cor or rcorr works fine!
-
-cor_matrix <- cor_list$r
+cor_matrix <- cor_list_rcorr$r # for rcorr function of Hmisc
 
 # Calculate coupling using the eco_coupling function:
 coup_new <- eco_coupling(cor_matrix, data_str = "matrix")
@@ -51,8 +49,5 @@ matrix_test <- cor_matrix
 
 matrix_test[!upper.tri(matrix_test, diag = FALSE)] <- NA
 
-coup_old_1 <- sum(abs(matrix_test), na.rm = TRUE)/((n ^ 2 - n)/2)
-coup_old_1
-
-coup_old_2  <- mean(as.matrix(abs(matrix_test)), na.rm = TRUE)
-coup_old_2
+coup_old  <- mean(as.matrix(abs(matrix_test)), na.rm = TRUE)
+coup_old

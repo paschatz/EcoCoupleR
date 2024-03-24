@@ -1,12 +1,12 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# EcoCoupleR <a><img src="man/ecocoupler_logo.png" align="right" height="138" /></a>
+# EcoCoupleR <a><img src="man/ecocoupler_logo.png" align="right" height="138"/></a>
 
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of EcoCoupleR is to provide researchers with an intuitive tool
+The goal of EcoCoupleR is to provide ecologists with an intuitive tool
 that will allow them to explore the potentialities of ecological
 coupling theory.
 
