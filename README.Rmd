@@ -12,13 +12,16 @@ knitr::opts_chunk$set(
 )
 ```
 
-# EcoCoupleR <a><img src="man/ecocoupler_logo.png" align="right" height="138"/></a>
+# A computational implementation of ecosystem coupling in R <a><img src="man/ecocoupler_logo.png" align="right" height="138"/></a>
 
 <!-- badges: start -->
+[![DOI](https://zenodo.org/badge/775914299.svg)](https://zenodo.org/doi/10.5281/zenodo.10866596)
 
 <!-- badges: end -->
 
-The goal of EcoCoupleR is to provide ecologists with an intuitive tool that will allow them to explore the potentialities of ecological coupling theory.
+The goal of ```EcoCoupleR``` is to provide ecologists with an intuitive tool
+that will allow them to explore the potentialities of ecological
+coupling theory.
 
 ## Installation
 
